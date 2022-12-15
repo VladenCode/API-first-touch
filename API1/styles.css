@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./jr-korpa-JDFKWw0DGJ8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  padding: 2rem;
+  font-size: 4vw;
+  color: rgb(255, 255, 255, 0.7);
+  text-align: center;
+}
+
+.search {
+  max-width: 500px;
+  padding: 1rem;
+  margin: 2rem auto;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.image {
+  max-width: 1500px;
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.image > img {
+  width: 300px;
+  height: 200px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.image > img:hover {
+  transition: 0.3s all ease-in;
+  transform: scale(1.5);
+}
+
+input {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 2px solid transparent;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+input:hover {
+  transition: 0.3s all linear;
+  background-color: rgb(255, 255, 255);
+}
+button {
+  padding: 0.7rem 1rem;
+  background-color: rgb(59, 190, 147);
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+button:hover {
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  transition: 0.3s all ease-in;
+}

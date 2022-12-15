@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  text-align: center;
+  background-image: url(./62932-Banner-L1-d94312dcc2e4a8592506cc8261f4fc42.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  padding: 2rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+.absolut {
+  position: absolute;
+  overflow: auto;
+  max-width: 400px;
+  height: 100px;
+  left: 15%;
+  bottom: 5%;
+}
+article {
+  position: relative;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+button {
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  transition: 0.3s all linear;
+  background-color: rgb(35, 34, 33);
+}
+button {
+  border-radius: 0.5rem;
+  background-color: rgb(0, 0, 0, 0.7);
+}
